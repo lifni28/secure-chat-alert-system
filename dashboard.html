@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>🛡️ SecureChat Alert System</h2>
+
+  <label>Device</label>
+  <select id="device">
+    <option>Mobile</option>
+    <option>Laptop</option>
+    <option>Unknown Device</option>
+  </select>
+
+  <label>Location</label>
+  <select id="location">
+    <option>Saved Location</option>
+    <option>New Location</option>
+  </select>
+
+  <label>Messages Sent</label>
+  <input type="number" id="messages">
+
+  <button onclick="analyze()">Analyze Activity</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
